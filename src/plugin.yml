@@ -1,0 +1,8 @@
+name: Tracker
+version: 1.0
+author: Varaday
+main: varaday.tracker.Main
+api-version : 1.8
+commands:
+  track:
+    description: Command for Tracker.
