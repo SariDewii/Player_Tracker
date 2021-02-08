@@ -20,6 +20,9 @@ import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
+// I know you're snooping on my code 👀
+// Don't forget to follow https://github.com/Varadayy :)
+
 public class Main extends JavaPlugin {
     private static Main plugin;
     public static HashMap<Player, Player> tracks = new HashMap();
