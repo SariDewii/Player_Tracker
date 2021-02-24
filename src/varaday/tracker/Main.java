@@ -160,7 +160,6 @@ public class Main extends JavaPlugin {
                 if (!p.getItemInHand().equals(tracker)) {
                     ActionBarEvent.using.put(p, false);
                 }
-
             }
         }, 60L);
     }
@@ -185,7 +184,6 @@ public class Main extends JavaPlugin {
                     setBar(p, target, getRange(p.getLocation(), target.getLocation()));
                 }
             }
-
             return;
         }
     }
