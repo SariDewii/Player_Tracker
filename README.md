@@ -1,4 +1,9 @@
 # Tracker
+
+**(!) Spigot Links (!)**
+
+https://www.spigotmc.org/resources/player-tracker.89571/
+
 **(!) Function (!)**
 
 This tracker can be used in all gamemodes, and is installed intelligently
