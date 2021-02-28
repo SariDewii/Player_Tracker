@@ -7,6 +7,7 @@ import java.util.List;
 
 import varaday.tracker.actionbars.ActionBar;
 import varaday.tracker.actionbars.ActionBarEvent;
+import varaday.tracker.commands.TrackCMD;
 import varaday.tracker.menus.GUIMenu;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -43,8 +44,8 @@ public class Main extends JavaPlugin {
 
     public void onEnable() {
         plugin = this;
-        Track2.everyFiveTicks();
-        Track2.everySecond();
+        Main2.everyFiveTicks();
+        Main2.everySecond();
         this.getServer().getPluginManager().registerEvents(new GUIMenu(), this);
         this.getCommand("track").setExecutor(new TrackCMD());
         this.saveDefaultConfig();
@@ -195,4 +196,3 @@ public class Main extends JavaPlugin {
         return Math.sqrt(Math.pow(x, 2.0D) + Math.pow(y, 2.0D) + Math.pow(z, 2.0D));
     }
 }
-
