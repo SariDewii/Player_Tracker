@@ -1,5 +1,5 @@
 name: Tracker
-version: 1.0
+version: 1.0.4
 author: Varaday
 main: varaday.tracker.Main
 api-version : 1.8
