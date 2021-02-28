@@ -1,4 +1,4 @@
-prefix : "&8[Tracker&8]"
+prefix : "&8[&aTracker&8]"
 customrecipe : true
 format : "&7Tracking: &c{target} &a({range} Blocks)"
 track:
