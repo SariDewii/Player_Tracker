@@ -108,10 +108,8 @@ public class Main extends JavaPlugin {
                 p.setCompassTarget(p.getLocation());
                 return;
             }
-
             tracks.put(p, nearest);
         }
-
     }
 
     public static String getFormatted(Player p, Player target, double range) {
